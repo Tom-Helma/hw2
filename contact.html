@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deerfield Brewing - Contact Us</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <h1 class="text-center text-3xl font-bold p-8">Contact Us</h1>
+    
+    <div class="md:flex justify-center">
+        <div class="md:w-1/4 border-4 text-center rounded-3xl p-2 bg-green-500">
+            <a href="index.html">Home</a>
+        </div>
+    
+        <div class="md:w-1/4 border-4 text-center rounded-3xl p-2 bg-green-500">
+            <a href="menu.html">Menu</a>
+        </div>
+    </div>
+
+    <h2 class="text-center text-2xl font-bold p-8">Location:</h2>
+    <div class="text-center">
+        <p>Deefield Brewing Company</p>
+        <p>1234 Deerfield Rd</p>
+        <p>Deerfield, IL 60018</p>
+    </div>
+    
+
+    <h2 class="text-center text-2xl font-bold p-8">Hours:</h2>
+    <div class="text-center">
+        <p>Monday-Thursday: 12pm - 11:30pm</p>
+        <p>Friday: 12pm - 1am</p>
+        <p>Saturday: 11am - 1am</p>
+        <p>Sunday: 11am - 11:30pm</p>
+    </div>
+    
+
+    <h2 class="text-center text-2xl font-bold p-8">General Inquiries:</h2>
+
+    <div class="md:px-16">
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:green-purple-500
+            focus:border-green-500" type="text" id="name" name="name">
+      
+            <label class="block mt-4 font-bold" for="email">Email</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-500
+            focus:border-green-500" type="text" id="email" name="email">
+          
+            <label class="block mt-4 font-bold" for="message">Message</label>
+            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-500
+            focus:border-green-500" id="message" name="message"></textarea>
+          
+            <button class="block mt-4 bg-green-500 rounded px-4 py-2">Submit!</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
